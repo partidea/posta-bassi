@@ -14,6 +14,7 @@ const Header: React.FC = () => {
   }, []);
 
   const navLinks = [
+    { name: 'Home', href: '#' },
     { name: 'Agriturismo', href: '#agriturismo' },
     { name: 'Camere', href: '#rooms' },
     { name: 'Servizi', href: '#services' },

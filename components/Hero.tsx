@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 md:px-0">
-        <span className="text-white/90 text-sm md:text-base tracking-[0.3em] font-bold uppercase mb-4 animate-fade-in-up">
+        <span className="text-white text-sm md:text-base tracking-[0.3em] font-bold uppercase mb-4 animate-fade-in-up drop-shadow-md">
           Foggia, Puglia
         </span>
         
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
           <button className="bg-primary hover:bg-white hover:text-primary text-white border-2 border-primary px-8 py-3 text-xs md:text-sm font-bold uppercase tracking-widest transition-all duration-300 shadow-xl">
             Scopri il Menù
           </button>
-          <a href="https://www.tripadvisor.it/Hotel_Review-g187876-d2277591-Reviews-Agriturismo_Posta_Bassi-Foggia_Province_of_Foggia_Puglia.html" target="_blank" rel="noreferrer" className="bg-transparent hover:bg-white hover:text-black text-white border-2 border-white px-8 py-3 text-xs md:text-sm font-bold uppercase tracking-widest transition-all duration-300 flex items-center justify-center">
+          <a href="#rooms" className="bg-transparent hover:bg-white hover:text-black text-white border-2 border-white px-8 py-3 text-xs md:text-sm font-bold uppercase tracking-widest transition-all duration-300 flex items-center justify-center">
             Le Nostre Camere
           </a>
         </div>
